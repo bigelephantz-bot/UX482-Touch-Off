@@ -1,0 +1,25 @@
+**/bin/
+**/obj/
+artifacts/
+*.user
+*.suo
+TouchGate*.json
+UX482-TouchResearch-report*.json
+
+# Unrelated local work and machine-specific diagnostics/backups.
+/dsh-login/
+.vs/
+*.log
+*.log.txt
+*.jpg
+*.jpeg
+*.png
+UX482-before*.json
+UX482-configured*.json
+UX482-after-restart*.json
+UX482-restored*.json
+private-diagnostics.json
+TouchGate.operation.lock
+TouchGate*.tmp
+.env
+.env.*

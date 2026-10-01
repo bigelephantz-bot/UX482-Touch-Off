@@ -1,0 +1,23 @@
+STRUCTURAL / INDEPENDENT VECTOR CHECKS ONLY
+PASS: manifest asInvoker
+PASS: manifest no UIAccess
+PASS: Windows target
+PASS: folder deployment
+PASS: no trimming
+PASS: no direct call: SetWindowsHookEx(
+PASS: no direct call: BlockInput(
+PASS: no direct call: Disable-PnpDevice
+PASS: no direct call: CM_Disable_DevNode(
+PASS: no direct call: HttpClient(
+PASS: no direct call: WebClient(
+PASS: no direct call: SendInput(
+PASS: DSTS allowlisted method
+PASS: two-ID query allowlist
+PASS: independent packet vector 0x50031
+PASS: C# test contains expected vector
+PASS: independent packet vector 0x50032
+PASS: C# test contains expected vector
+PASS: backup no overwrite
+PASS: restore absent value supported
+PASS: configuration is not physical success
+21 checks; C# compilation, .NET test execution and UX482 hardware are NOT verified.
